@@ -1,0 +1,169 @@
+/*common css start*/
+body{
+	margin:0;
+	font-family:"Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	margin:40px 0;
+	
+}
+.cotainer{
+	overflow:hidden;
+	margin:0 auto;
+	width:90%;
+	
+	
+}
+.logo{
+	margin-top:10px;
+	float:left;
+	width:12%;
+	
+
+}
+.logo a{
+	display: inline;
+}
+.logo a img{
+	width:100%;
+}
+.menu{
+	float:right;
+	width:65%;
+	
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+}
+.menu ul li a{
+	display:inline-block;
+	margin:0 50px;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	overflow:hidden;
+}
+.cotainer{}
+.b-img{}
+.b-img img{
+	width:100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding:100px 0;
+}
+.container2{
+	margin:0 auto;
+	width:80%;
+	padding-bottom: 60px;
+}
+.g_content{}
+.c_light{
+	margin:0;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_titel{
+	margin:20px 0 30px;
+	font-size:30px ;
+	font-weight:400 ;
+}
+.c_text{
+	margin:0;
+	line-height: 24px;
+}
+.g_link{
+	margin-top:40px;
+	display: block;
+	color:#626262;
+	text-decoration: none;
+}
+
+/*getaway end*/
+/*news start*/
+.container3{
+	margin:0 auto;
+	padding-top: 20px;
+	overflow: hidden;
+	width: 80%;
+	height:250px;
+}
+.news{
+	background-color: #f0f0f0;
+	padding:70px 0;
+}
+.singup{
+	text-align: center;
+}
+.s_h1{
+	font-family:"Playfair Display", serif;
+	font-size: 30px;
+	font-weight: 400;
+	color:#333333;
+	margin-top:0;
+	margin-bottom:70px ;
+}
+.s_form{
+	position: relative;
+	margin:0 auto;
+	width: 400px;
+	
+}
+.s_form input{
+	font-family:"Playfair Display", serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background-color: transparent;
+	padding-left:5px;
+	padding-right: 45px;
+
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position:absolute;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+	top:15px;
+	right:0;
+
+}
+.s_form button{
+	outline: 0;
+}
+.s_form button img{}
+
+.title{}
+
+/* news end*/
